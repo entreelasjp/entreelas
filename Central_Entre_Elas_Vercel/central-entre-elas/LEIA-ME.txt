@@ -1,0 +1,25 @@
+CENTRAL ENTRE ELAS NA VERCEL
+
+O que é: a mesma Central, agora em um site comum, com banco de dados próprio e um código de acesso da equipe. Quem tem o link e o código entra, sem precisar de conta no Claude. Os dados atuais (18 tarefas, 8 atividades, 1 parceiro) já vão junto e são carregados na primeira abertura.
+
+PASSO A PASSO (cerca de 10 minutos)
+
+1. Crie uma conta gratuita em vercel.com (quem for dona do projeto).
+
+2. Suba esta pasta para a Vercel. Escolha UMA forma:
+   a) Pelo GitHub: crie um repositório privado, envie o conteúdo desta pasta e, na Vercel, clique em "Add New > Project" e importe o repositório. Não precisa mudar nenhuma configuração.
+   b) Pelo terminal: dentro desta pasta, rode "npx vercel" e responda as perguntas com Enter.
+
+3. Crie o banco: no painel do projeto, abra a aba "Storage", clique em "Create Database", escolha "Upstash Redis" (plano gratuito) e conecte ao projeto. A Vercel cria as variáveis do banco sozinha.
+
+4. Defina o código da equipe: em "Settings > Environment Variables", crie TEAM_CODE com a senha que vocês vão usar (por exemplo, uma frase curta). Marque Production, Preview e Development.
+
+5. Faça um novo deploy (aba "Deployments", os três pontinhos do último, "Redeploy"). Abra o endereço, digite o código e pronto.
+
+6. Mande para a equipe o endereço e o código. O navegador de cada uma lembra o código depois da primeira vez.
+
+OBSERVAÇÕES
+- Para trocar o código depois: mude TEAM_CODE na Vercel e faça Redeploy. Quem tinha o código antigo vai ver a tela pedindo o novo.
+- As alterações aparecem para todas em até 6 segundos, sem precisar recarregar.
+- O código protege os dados, mas é uma senha única compartilhada. Não compartilhem o endereço fora da equipe.
+- O artefato antigo no Claude deixa de ser atualizado. Passem a usar só o endereço novo.

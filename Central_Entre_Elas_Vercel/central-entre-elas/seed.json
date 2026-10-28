@@ -1,0 +1,403 @@
+{
+ "tasks": {
+  "d-venda-presencial": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "equipe",
+   "status": "todo",
+   "title": "Confirmar que a venda presencial da lojinha fica com Islane e Mariana"
+  },
+  "t-julia-manutencao": {
+   "area": "Manutenção e comentários",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "julia",
+   "status": "todo",
+   "title": "Responder comentários e comentar em postagens do TikTok e Shorts"
+  },
+  "t-im-datas": {
+   "area": "Cronograma",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "islanemariana",
+   "status": "todo",
+   "title": "Definir as datas das atividades que ainda estão sem data"
+  },
+  "t-fran-parceiros": {
+   "area": "Parceiros e fornecedores",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "fran",
+   "status": "done",
+   "title": "Achar parceiros e fornecedores para as próximas atividades"
+  },
+  "t-carol-artes": {
+   "area": "Artes e postagens",
+   "due": "2026-10-28",
+   "eventId": "",
+   "notes": "",
+   "owner": "carol",
+   "status": "todo",
+   "title": "Criar as artes e as postagens do mês"
+  },
+  "t-fran-cotar": {
+   "area": "Lojinha",
+   "due": "",
+   "eventId": "",
+   "notes": "Pedir preço por quantidade, prazo, formato de arquivo e amostra a 2 ou 3 fornecedores.",
+   "owner": "fran",
+   "status": "todo",
+   "title": "Cotar fornecedores locais para os itens da lojinha"
+  },
+  "d-avisos-forms": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "equipe",
+   "status": "todo",
+   "title": "Definir quem cuida do grupo de avisos e dos formulários de entrada e inscrição"
+  },
+  "t-julia-monetizacao": {
+   "area": "Monetização",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "julia",
+   "status": "todo",
+   "title": "Gerenciar as monetizações"
+  },
+  "d-subgrupos": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "equipe",
+   "status": "todo",
+   "title": "Definir quem cria e cuida dos subgrupos de cada atividade"
+  },
+  "t-carol-criadoras": {
+   "area": "Influenciadoras",
+   "due": "",
+   "eventId": "",
+   "notes": "Posts em collab com @entreelas.jp e identificados como parceria.",
+   "owner": "carol",
+   "status": "done",
+   "title": "Alinhar roteiros, permissões de imagem e prazos com as criadoras"
+  },
+  "d-lote-prevenda": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "equipe",
+   "status": "todo",
+   "title": "Decidir entre lote pequeno inicial ou só pré-venda na lojinha"
+  },
+  "t-julia-videos": {
+   "area": "Vídeos e redes",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "julia",
+   "status": "todo",
+   "title": "Publicar os vídeos no TikTok e Shorts"
+  },
+  "t-im-financeiro": {
+   "area": "Financeiro",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "islanemariana",
+   "status": "todo",
+   "title": "Acompanhar o financeiro das atividades e lançar os números aqui"
+  },
+  "d-comprovantes": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "equipe",
+   "status": "todo",
+   "title": "Definir quem confere os comprovantes de pagamento das inscrições"
+  },
+  "t-im-cronograma": {
+   "area": "Cronograma",
+   "due": "",
+   "eventId": "",
+   "notes": "",
+   "owner": "islanemariana",
+   "status": "todo",
+   "title": "Fechar o cronograma do mês"
+  },
+  "d-parceria-forms": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "Hoje ninguém confere. Fran é o encaixe natural.",
+   "owner": "equipe",
+   "status": "todo",
+   "title": "Definir quem responde o formulário de parceria e em quanto tempo"
+  },
+  "d-amostra": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "Resolvido: a amostra vai para Islane ou Mariana, que aprovam antes da pré-venda ou do lote.",
+   "owner": "equipe",
+   "status": "done",
+   "title": "Definir quem aprova a qualidade da amostra dos itens"
+  },
+  "d-plantao-wpp": {
+   "area": "Decisão em aberto",
+   "due": "",
+   "eventId": "",
+   "notes": "Evita duas respondendo a mesma pessoa, ou ninguém respondendo.",
+   "owner": "equipe",
+   "status": "todo",
+   "title": "Combinar a regra de plantão do WhatsApp de vendas entre Júlia, Carol e Fran"
+  }
+ },
+ "events": {
+  "cafe-leitura": {
+   "abertura": "2026-10-14",
+   "criadora": "",
+   "custo": 0,
+   "date": "2026-11-14",
+   "inscritas": 0,
+   "local": "",
+   "notes": "Discussão do livro Amor, Teoricamente, dinâmicas literárias, ficha de leitura, mimos e oficina de pintura em canecas. Inscrições abertas desde 14/10.",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "partnerIds": [
+    "clube-cafe-leitura"
+   ],
+   "preco": 50,
+   "stages": {
+    "data": true,
+    "evento": false,
+    "ideia": true,
+    "inscricao": true,
+    "parceiro": true,
+    "subgrupo": true
+   },
+   "time": "14:00",
+   "title": "Café com Leitura + Entre Elas",
+   "universo": "lazer",
+   "vagas": 0
+  },
+  "automaquiagem": {
+   "abertura": "2026-11-16",
+   "criadora": "Mariah",
+   "custo": 0,
+   "date": "2026-11-29",
+   "inscritas": 0,
+   "local": "",
+   "notes": "",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "preco": 0,
+   "stages": {
+    "cobertura": true,
+    "data": true,
+    "ideia": true
+   },
+   "time": "",
+   "title": "Automaquiagem + vinho",
+   "universo": "",
+   "vagas": 0
+  },
+  "caiaque": {
+   "abertura": "2026-11-09",
+   "criadora": "",
+   "custo": 0,
+   "date": "2026-11-20",
+   "inscritas": 0,
+   "local": "",
+   "notes": "",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "partnerIds": [],
+   "preco": 0,
+   "stages": {
+    "data": true,
+    "ideia": true
+   },
+   "time": "",
+   "title": "Caiaque",
+   "universo": "bem-estar",
+   "vagas": 0
+  },
+  "trilha-lucena": {
+   "abertura": "2026-10-27",
+   "criadora": "Emilly",
+   "custo": 0,
+   "date": "2026-11-07",
+   "inscritas": 0,
+   "local": "Lucena",
+   "notes": "",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "preco": 0,
+   "stages": {
+    "cobertura": true,
+    "data": true,
+    "ideia": true,
+    "parceiro": false
+   },
+   "time": "",
+   "title": "Trilha em Lucena",
+   "universo": "bem-estar",
+   "vagas": 0
+  },
+  "pintura-ecobag": {
+   "abertura": "2026-11-05",
+   "criadora": "Vic",
+   "custo": 0,
+   "date": "2026-11-28",
+   "inscritas": 0,
+   "local": "",
+   "notes": "",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "preco": 0,
+   "stages": {
+    "cobertura": true,
+    "data": true,
+    "ideia": true
+   },
+   "time": "",
+   "title": "Pintura em ecobag",
+   "universo": "artes",
+   "vagas": 0
+  },
+  "bandeja-gesso": {
+   "abertura": "2026-10-28",
+   "criadora": "Vic",
+   "custo": 0,
+   "date": "2026-11-08",
+   "inscritas": 0,
+   "local": "",
+   "notes": "",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "preco": 0,
+   "stages": {
+    "cobertura": true,
+    "data": true,
+    "ideia": true
+   },
+   "time": "",
+   "title": "Pintura em bandeja de gesso",
+   "universo": "artes",
+   "vagas": 0
+  },
+  "bolo-espumante": {
+   "abertura": "2026-11-02",
+   "criadora": "Vic",
+   "custo": 0,
+   "date": "2026-11-19",
+   "inscritas": 0,
+   "local": "",
+   "notes": "",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "preco": 0,
+   "stages": {
+    "cobertura": true,
+    "data": true,
+    "ideia": true
+   },
+   "time": "",
+   "title": "Confeitar bolo + espumante",
+   "universo": "",
+   "vagas": 0
+  },
+  "pole-dance": {
+   "abertura": "2026-11-13",
+   "criadora": "Jenny",
+   "custo": 0,
+   "date": "2026-11-21",
+   "inscritas": 0,
+   "local": "",
+   "notes": "",
+   "origem": {
+    "indicacao": 0,
+    "instagram": 0,
+    "outras": 0,
+    "tiktok": 0
+   },
+   "parceiro": "",
+   "preco": 0,
+   "stages": {
+    "cobertura": true,
+    "data": true,
+    "ideia": true
+   },
+   "time": "",
+   "title": "Pole dance + espumante",
+   "universo": "bem-estar",
+   "vagas": 0
+  }
+ },
+ "shop": {},
+ "money": {},
+ "partners": {
+  "clube-cafe-leitura": {
+   "contato": "",
+   "historico": [],
+   "instagram": "",
+   "nome": "Clube Café com Leitura",
+   "notes": "Cadastre aqui o Instagram e o telefone do clube.",
+   "oferece": "Parceria no encontro de 14/11: discussão do livro Amor, Teoricamente, dinâmicas literárias e ficha de leitura.",
+   "owner": "fran",
+   "proximaAcao": "",
+   "proximoContato": "",
+   "status": "Fechado",
+   "telefone": "",
+   "tipo": "Outro",
+   "troca": "",
+   "ultimoContato": ""
+  }
+ }
+}
