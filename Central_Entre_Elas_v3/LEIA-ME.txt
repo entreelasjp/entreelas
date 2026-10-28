@@ -1,0 +1,4 @@
+CENTRAL ENTRE ELAS (versão com Supabase)
+
+Suba TODOS estes itens na raiz do repositório do GitHub (api, public, seed.json, setup.sql, package.json, vercel.json).
+O código da equipe está no arquivo api/config.js. Para trocar, edite esse arquivo no GitHub (lápis) e salve.
