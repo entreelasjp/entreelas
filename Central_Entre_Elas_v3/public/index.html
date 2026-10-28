@@ -498,7 +498,7 @@ body.ro .write-only{display:none!important}
   }
   async function api(method,body){
     for(let t=0;t<4;t++){
-      if(!code)await askCode();
+      
       const r=await fetch('/api/db',{method,headers:{'x-team-code':code,'Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});
       if(r.status===401){code='';try{localStorage.removeItem('ee-code')}catch(_){}await askCode('Código incorreto. Tente de novo.');continue}
       if(!r.ok)throw new Error('http '+r.status);
