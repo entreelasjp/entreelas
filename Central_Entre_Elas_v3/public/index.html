@@ -26,7 +26,7 @@
   --pink:#FF5CA6; --on-pink:#2B0F1E; --lilac:#A28AC9; --blue:#7FA6BE; --green:#8FC585;
   --pink-t:#4A2036; --lilac-t:#352A47; --blue-t:#243846; --green-t:#27402A;
   --ok:#74C48F; --warn:#E8A94F; --bad:#FF8A78; --bad-t:#4A2321;
-  --c-fran:#6CBA80; --c-julia:#6CA6CE; --c-carol:#A488DB; --c-islanemariana:#FF5CA6; --c-equipe:#A592A0;
+  --c-fran:#6CBA80; --c-julia:#6CA6CE; --c-carol:#A488DB; --c-Islenemariana:#FF5CA6; --c-equipe:#A592A0;
   --shadow:0 1px 0 rgba(0,0,0,.2),0 8px 24px -14px rgba(0,0,0,.6); color-scheme:dark}
 
 *{box-sizing:border-box}
@@ -81,9 +81,9 @@ main{display:grid;gap:28px;padding-top:12px}
 .tag.ok{background:var(--green-t);color:var(--ok)}
 
 .av{flex:none;display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;font-size:12px;font-weight:700;color:#fff;background:var(--c-equipe)}
-.av.fran{background:var(--c-fran)}.av.julia{background:var(--c-julia)}.av.carol{background:var(--c-carol)}.av.islanemariana{background:var(--c-islanemariana);color:var(--on-pink)}
+.av.fran{background:var(--c-fran)}.av.julia{background:var(--c-julia)}.av.carol{background:var(--c-carol)}.av.Islenemariana{background:var(--c-Islenemariana);color:var(--on-pink)}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--c-equipe)}
-.dot.fran{background:var(--c-fran)}.dot.julia{background:var(--c-julia)}.dot.carol{background:var(--c-carol)}.dot.islanemariana{background:var(--c-islanemariana)}
+.dot.fran{background:var(--c-fran)}.dot.julia{background:var(--c-julia)}.dot.carol{background:var(--c-carol)}.dot.Islenemariana{background:var(--c-Islenemariana)}
 
 .banner{border:1.5px dashed var(--lilac);background:var(--lilac-t);border-radius:12px;padding:12px 16px}
 .empty{border:1.5px dashed var(--line);border-radius:12px;padding:22px;text-align:center;color:var(--muted)}
@@ -391,9 +391,9 @@ body.ro .write-only{display:none!important}
           <ol class="steps">
             <li><div><h3>Escolher o item</h3><p class="muted small">Islene e Mariana decidem. Serve a um dos universos, é fácil de produzir na cidade e deixa margem.</p></div></li>
             <li><div><h3>Cotar na cidade</h3><p class="muted small">Fran pede preço por quantidade, prazo, formato de arquivo e amostra a dois ou três fornecedores.</p></div></li>
-            <li><div><h3>Fazer a arte</h3><p class="muted small">Carol cria dentro das medidas do fornecedor escolhido. Islane e Mariana aprovam.</p></div></li>
+            <li><div><h3>Fazer a arte</h3><p class="muted small">Carol cria dentro das medidas do fornecedor escolhido. Islene e Mariana aprovam.</p></div></li>
             <li><div><h3>Aprovar a amostra</h3><p class="muted small">A amostra vai para Islene ou Mariana, que veem de perto e aprovam antes de qualquer lote. É a vantagem de fechar na cidade.</p></div></li>
-            <li><div><h3>Pré-venda ou lote</h3><p class="muted small">Aprovada a amostra, o item entra em pré-venda ou lote e o produto é entregue a Islane ou Mariana. Lote pequeno ou só pré-venda continua em aberto na lista de tarefas.</p></div></li>
+            <li><div><h3>Pré-venda ou lote</h3><p class="muted small">Aprovada a amostra, o item entra em pré-venda ou lote e o produto é entregue a Islene ou Mariana. Lote pequeno ou só pré-venda continua em aberto na lista de tarefas.</p></div></li>
             <li><div><h3>Vender e entregar</h3><p class="muted small">Islene e Mariana entregam nos eventos. Online, Júlia, Carol e Fran respondem no WhatsApp conforme a demanda.</p></div></li>
             <li><div><h3>Registrar</h3><p class="muted small">Custo, preço, vendidos e sobra aqui. Os números alimentam o Financeiro.</p></div></li>
           </ol>
@@ -402,7 +402,7 @@ body.ro .write-only{display:none!important}
           <ul class="kvlist">
             <li><h3>O frete não está incluso</h3><p class="muted small">Isso precisa aparecer em todo anúncio de venda.</p></li>
             <li><h3>No evento, a entrega é de Islene e Mariana</h3><p class="muted small">Elas levam os itens e entregam durante as atividades.</p></li>
-            <li><h3>Para quem quiser por fora</h3><p class="muted small">Pedir um Uber Moto para retirar no horário que Islane ou Mariana informarem. A corrida é paga pela cliente.</p></li>
+            <li><h3>Para quem quiser por fora</h3><p class="muted small">Pedir um Uber Moto para retirar no horário que Islene ou Mariana informarem. A corrida é paga pela cliente.</p></li>
             <li><h3>Só entrega depois do pagamento</h3><p class="muted small">Confirmar o pagamento do produto antes de entregar ou liberar a retirada.</p></li>
             <li><h3>Dica</h3><p class="muted small">Pré-venda antes do evento e entrega no próprio evento elimina o frete.</p></li>
           </ul>
@@ -553,28 +553,28 @@ const OWNERS=[
   {id:'fran',name:'Fran',ini:'F',role:'Acha parceiros e fornecedores'},
   {id:'julia',name:'Júlia',ini:'J',role:'Vídeos no TikTok e Shorts, manutenção e monetizações'},
   {id:'carol',name:'Carol',ini:'C',role:'Artes e postagens, e gerencia as influenciadoras'},
-  {id:'islanemariana',name:'Islane e Mariana',ini:'IM',role:'Financeiro e fechamento do cronograma do mês'},
+  {id:'Islenemariana',name:'Islene e Mariana',ini:'IM',role:'Financeiro e fechamento do cronograma do mês'},
   {id:'equipe',name:'Sem responsável',ini:'?',role:'A decidir juntas'}
 ];
 const OWN=Object.fromEntries(OWNERS.map(o=>[o.id,o]));
 const AREAS=['Parceiros e fornecedores','Vídeos e redes','Manutenção e comentários','Monetização','Artes e postagens','Influenciadoras','Financeiro','Cronograma','Vendas no WhatsApp','Lojinha','Comunidade e inscrições','Atividade','Decisão em aberto'];
 const UNIV={'lazer':'Lazer','bem-estar':'Bem-estar','artes':'Artes','':'A definir'};
 const STAGES=[
-  {id:'ideia',label:'Ideia',who:'islanemariana'},
+  {id:'ideia',label:'Ideia',who:'Islenemariana'},
   {id:'parceiro',label:'Parceiro',who:'fran'},
-  {id:'data',label:'Data fechada',who:'islanemariana'},
+  {id:'data',label:'Data fechada',who:'Islenemariana'},
   {id:'inscricao',label:'Aviso e inscrição',who:'equipe'},
   {id:'subgrupo',label:'Subgrupo criado',who:'equipe'},
-  {id:'evento',label:'Evento',who:'islanemariana'},
+  {id:'evento',label:'Evento',who:'Islenemariana'},
   {id:'cobertura',label:'Cobertura',who:'carol'},
-  {id:'feedback',label:'Feedback',who:'islanemariana'}
+  {id:'feedback',label:'Feedback',who:'Islenemariana'}
 ];
 const SHOP_STAGES=[
-  {id:'ideia',label:'Ideia',who:'Islane e Mariana'},
+  {id:'ideia',label:'Ideia',who:'Islene e Mariana'},
   {id:'cotacao',label:'Cotação',who:'Fran'},
   {id:'arte',label:'Arte',who:'Carol'},
-  {id:'amostra',label:'Amostra',who:'Vai para Islane ou Mariana aprovar'},
-  {id:'lote',label:'Lote ou pré-venda',who:'Entrega para Islane ou Mariana'},
+  {id:'amostra',label:'Amostra',who:'Vai para Islene ou Mariana aprovar'},
+  {id:'lote',label:'Lote ou pré-venda',who:'Entrega para Islene ou Mariana'},
   {id:'venda',label:'À venda',who:'Entrega nos eventos ou retirada'},
   {id:'fim',label:'Encerrado',who:'Registrar números'}
 ];
@@ -793,7 +793,7 @@ function fillEventForm(e,preset){
 function renderLojinha(){
   const box=$('#shopBoard');
   if(!ready.shop){box.innerHTML=loading('shop');return}
-  if(!S.shop.length){box.innerHTML=empty('Nenhum item na lojinha ainda','Comece pela etapa Ideia: use "Novo item" quando Islane e Mariana escolherem o primeiro produto.');return}
+  if(!S.shop.length){box.innerHTML=empty('Nenhum item na lojinha ainda','Comece pela etapa Ideia: use "Novo item" quando Islene e Mariana escolherem o primeiro produto.');return}
   box.innerHTML=`<div class="board">`+SHOP_STAGES.map((st,i)=>{
     const items=S.shop.filter(s=>(s.stage||'ideia')===st.id);
     return `<div class="col"><h3>${esc(st.label)}<small>${items.length}</small></h3><div class="who">${esc(st.who)}</div>`+items.map(s=>{
@@ -867,7 +867,7 @@ function renderEstrutura(){
     ['fran','Achar parceiros e fornecedores. Responde às vendas no WhatsApp conforme a demanda.'],
     ['julia','Publicar vídeos no TikTok e Shorts. Manutenção: responder comentários e comentar em outras postagens. Gerenciar as monetizações. Responde às vendas no WhatsApp conforme a demanda.'],
     ['carol','Criar artes e fazer as postagens. Gerenciar as influenciadoras. Responde às vendas no WhatsApp conforme a demanda.'],
-    ['islanemariana','Financeiro e fechamento do cronograma do mês. Venda presencial da lojinha, a confirmar.']
+    ['Islenemariana','Financeiro e fechamento do cronograma do mês. Venda presencial da lojinha, a confirmar.']
   ].map(([id,t])=>`<tr><td style="white-space:nowrap"><span class="row" style="flex-wrap:nowrap">${av(OWN[id])}<b>${esc(OWN[id].name)}</b></span></td><td>${esc(t)}</td></tr>`).join('')+`<tr><td style="white-space:nowrap"><span class="row" style="flex-wrap:nowrap"><span class="av">C</span><b>Contador</b></span></td><td>Parte fiscal e contábil do clube.</td></tr></tbody></table>`;
 }
 
