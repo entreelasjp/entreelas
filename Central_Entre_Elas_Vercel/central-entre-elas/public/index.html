@@ -389,20 +389,20 @@ body.ro .write-only{display:none!important}
       <div class="grid g2">
         <div class="card"><h2 style="margin-bottom:12px">Passo a passo de um item</h2>
           <ol class="steps">
-            <li><div><h3>Escolher o item</h3><p class="muted small">Islane e Mariana decidem. Serve a um dos universos, é fácil de produzir na cidade e deixa margem.</p></div></li>
+            <li><div><h3>Escolher o item</h3><p class="muted small">Islene e Mariana decidem. Serve a um dos universos, é fácil de produzir na cidade e deixa margem.</p></div></li>
             <li><div><h3>Cotar na cidade</h3><p class="muted small">Fran pede preço por quantidade, prazo, formato de arquivo e amostra a dois ou três fornecedores.</p></div></li>
-            <li><div><h3>Fazer a arte</h3><p class="muted small">Carol cria dentro das medidas do fornecedor escolhido. Islane e Mariana aprovam.</p></div></li>
-            <li><div><h3>Aprovar a amostra</h3><p class="muted small">A amostra vai para Islane ou Mariana, que veem de perto e aprovam antes de qualquer lote. É a vantagem de fechar na cidade.</p></div></li>
-            <li><div><h3>Pré-venda ou lote</h3><p class="muted small">Aprovada a amostra, o item entra em pré-venda ou lote e o produto é entregue a Islane ou Mariana. Lote pequeno ou só pré-venda continua em aberto na lista de tarefas.</p></div></li>
-            <li><div><h3>Vender e entregar</h3><p class="muted small">Islane e Mariana entregam nos eventos. Online, Júlia, Carol e Fran respondem no WhatsApp conforme a demanda.</p></div></li>
+            <li><div><h3>Fazer a arte</h3><p class="muted small">Carol cria dentro das medidas do fornecedor escolhido. Islene e Mariana aprovam.</p></div></li>
+            <li><div><h3>Aprovar a amostra</h3><p class="muted small">A amostra vai para Islene ou Mariana, que veem de perto e aprovam antes de qualquer lote. É a vantagem de fechar na cidade.</p></div></li>
+            <li><div><h3>Pré-venda ou lote</h3><p class="muted small">Aprovada a amostra, o item entra em pré-venda ou lote e o produto é entregue a Islene ou Mariana. Lote pequeno ou só pré-venda continua em aberto na lista de tarefas.</p></div></li>
+            <li><div><h3>Vender e entregar</h3><p class="muted small">Islene e Mariana entregam nos eventos. Online, Júlia, Carol e Fran respondem no WhatsApp conforme a demanda.</p></div></li>
             <li><div><h3>Registrar</h3><p class="muted small">Custo, preço, vendidos e sobra aqui. Os números alimentam o Financeiro.</p></div></li>
           </ol>
         </div>
         <div class="card"><h2 style="margin-bottom:12px">Regra de entrega</h2>
           <ul class="kvlist">
             <li><h3>O frete não está incluso</h3><p class="muted small">Isso precisa aparecer em todo anúncio de venda.</p></li>
-            <li><h3>No evento, a entrega é de Islane e Mariana</h3><p class="muted small">Elas levam os itens e entregam durante as atividades.</p></li>
-            <li><h3>Para quem quiser por fora</h3><p class="muted small">Pedir um Uber Moto para retirar no horário que Islane ou Mariana informarem. A corrida é paga pela cliente.</p></li>
+            <li><h3>No evento, a entrega é de Islene e Mariana</h3><p class="muted small">Elas levam os itens e entregam durante as atividades.</p></li>
+            <li><h3>Para quem quiser por fora</h3><p class="muted small">Pedir um Uber Moto para retirar no horário que Islene ou Mariana informarem. A corrida é paga pela cliente.</p></li>
             <li><h3>Só entrega depois do pagamento</h3><p class="muted small">Confirmar o pagamento do produto antes de entregar ou liberar a retirada.</p></li>
             <li><h3>Dica</h3><p class="muted small">Pré-venda antes do evento e entrega no próprio evento elimina o frete.</p></li>
           </ul>
@@ -498,7 +498,7 @@ body.ro .write-only{display:none!important}
   }
   async function api(method,body){
     for(let t=0;t<4;t++){
-      if(!code)await askCode();
+      
       const r=await fetch('/api/db',{method,headers:{'x-team-code':code,'Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});
       if(r.status===401){code='';try{localStorage.removeItem('ee-code')}catch(_){}await askCode('Código incorreto. Tente de novo.');continue}
       if(!r.ok)throw new Error('http '+r.status);
@@ -553,7 +553,7 @@ const OWNERS=[
   {id:'fran',name:'Fran',ini:'F',role:'Acha parceiros e fornecedores'},
   {id:'julia',name:'Júlia',ini:'J',role:'Vídeos no TikTok e Shorts, manutenção e monetizações'},
   {id:'carol',name:'Carol',ini:'C',role:'Artes e postagens, e gerencia as influenciadoras'},
-  {id:'islanemariana',name:'Islane e Mariana',ini:'IM',role:'Financeiro e fechamento do cronograma do mês'},
+  {id:'islanemariana',name:'Islene e Mariana',ini:'IM',role:'Financeiro e fechamento do cronograma do mês'},
   {id:'equipe',name:'Sem responsável',ini:'?',role:'A decidir juntas'}
 ];
 const OWN=Object.fromEntries(OWNERS.map(o=>[o.id,o]));
@@ -570,11 +570,11 @@ const STAGES=[
   {id:'feedback',label:'Feedback',who:'islanemariana'}
 ];
 const SHOP_STAGES=[
-  {id:'ideia',label:'Ideia',who:'Islane e Mariana'},
+  {id:'ideia',label:'Ideia',who:'Islene e Mariana'},
   {id:'cotacao',label:'Cotação',who:'Fran'},
   {id:'arte',label:'Arte',who:'Carol'},
-  {id:'amostra',label:'Amostra',who:'Vai para Islane ou Mariana aprovar'},
-  {id:'lote',label:'Lote ou pré-venda',who:'Entrega para Islane ou Mariana'},
+  {id:'amostra',label:'Amostra',who:'Vai para Islene ou Mariana aprovar'},
+  {id:'lote',label:'Lote ou pré-venda',who:'Entrega para Islene ou Mariana'},
   {id:'venda',label:'À venda',who:'Entrega nos eventos ou retirada'},
   {id:'fim',label:'Encerrado',who:'Registrar números'}
 ];
@@ -793,7 +793,7 @@ function fillEventForm(e,preset){
 function renderLojinha(){
   const box=$('#shopBoard');
   if(!ready.shop){box.innerHTML=loading('shop');return}
-  if(!S.shop.length){box.innerHTML=empty('Nenhum item na lojinha ainda','Comece pela etapa Ideia: use "Novo item" quando Islane e Mariana escolherem o primeiro produto.');return}
+  if(!S.shop.length){box.innerHTML=empty('Nenhum item na lojinha ainda','Comece pela etapa Ideia: use "Novo item" quando Islene e Mariana escolherem o primeiro produto.');return}
   box.innerHTML=`<div class="board">`+SHOP_STAGES.map((st,i)=>{
     const items=S.shop.filter(s=>(s.stage||'ideia')===st.id);
     return `<div class="col"><h3>${esc(st.label)}<small>${items.length}</small></h3><div class="who">${esc(st.who)}</div>`+items.map(s=>{
